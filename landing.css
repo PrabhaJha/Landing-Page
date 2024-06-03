@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width:100%;
+    background-color: #000;
+}
+#nav{
+    height: 140px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+#nav-prt2{
+    display: flex;
+    /* background-color: blue; */
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+#nav h5{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+#nav img{
+    height: 46px
+}
+#line{
+    width: 80px;
+    height: 2px;
+    background-color: red;
+}
+#content{
+    height:calc(100% - 140px);
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+#left{
+    width: 36%;
+    height: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    padding: 120px 100px;
+}
+#center{
+    width: 26%;
+    height: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    padding-top: 20px;  /*30 se 60 tak kar sakte h */
+}
+#right{
+    width: 36%;
+    height: 100%;
+    padding: 280px 120px;
+    /* background-color: red; */
+}
+#left h1{
+    font-size: 53px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+#left p{
+    font-size: 17px;
+    width: 85%;
+    line-height: 22px;
+}
+#left button{
+    margin-top: 40px;
+    background-color: red;
+    padding: 18px 38px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+#left button i{
+    margin-right: 10px;
+}
+#center-bg{
+    background-color: blue;
+    height: 88%;
+    width: 100%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    background-image: url(https://www.coca-cola.com/content/dam/onexp/xf/en/homepage/carousel/ar_coca-cola_header05_desktop_coca-cola-acquires-costa-coffee_1440x810_v1.jpg);
+    background-size: 350%;
+    background-position: 30% 32%;
+    filter: blur(3px);
+}
+#content>img{
+    height:100%;
+    position: absolute;
+    left: 49%;
+    z-index: 99;   /* to keep the bottle image in front*/
+    transform: translate(-50%,0);
+}
+#right-elems{
+    /* background-color: red; */
+    width: 360px;
+}
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 53px;
+    opacity: 0.6;
+    /* background-color: blue; */
+    border-bottom: 1px solid #fff;
+}
+#elem1 h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+#elem i{
+    font-size: 22px;
+}
+#elem2 h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    padding-top: 12px;
+}
+#elem2 p{
+    font-size: 12px;
+    width:70%;
+    opacity: 0.6;
+    /* margin-top: 10px;  */
+} 
+#left button:hover {
+    background-color: white;
+    color: red;
+}
+#left button i:hover {
+    background-color: white;
+    color: red;
+}
